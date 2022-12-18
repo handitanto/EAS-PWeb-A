@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img{
+    position: relative;
+    height: 100px;
+    align-content: center;
+    left: 43%;
+}
+
+body{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    background: url(images/laut.jpg);
+    background-size: cover;
+}
+
+.container{
+    padding-top: 100px;
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+}
+
+.form-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow:  2px 2px 2px black;
+    border-bottom: solid 1px white;
+
+}
+
+.main-user-info{
+    flex-wrap: wrap;
+    justify-content: ;
+    padding: 20px 0;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+    margin-left: 5px;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+
+.gender-details-box{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.gender-title{
+    color: white;
+    font-size: 600;
+    border-bottom: 1px solid white;
+}
+
+.gender-category{
+    margin: 15px 0;
+    color: white;
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+}
+
+.user-file-input{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+.form-submit-btn{
+    margin-top: 40px;
+    
+}
+
+.form-submit-btn input{
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 0px;
+    color: white;
+    background: rgba(63. 114, 76, 0.7);
+    border-radius: 25px;
+    height: 50px;
+}
+
+.form-submit-btn :hover{
+    text-decoration: underline;
+}

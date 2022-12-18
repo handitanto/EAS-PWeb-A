@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Seleksi Kementrian</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h3><img src="images/kkp logo.png" alt="logo"></h3> 
+        <h1 class="form-title">Seleksi Pegawai Baru Kementrian Kelautan dan Perikanan</h1>
+        <form action="#">
+            
+            <!-- username //-->
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="username">Username</label>
+                    <input type="text"
+                            id="username"
+                            name="username"
+                            placeholder="Username"/>
+                </div>
+
+                <!-- email //-->
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Email"/>
+                </div>
+
+                <!-- password //-->
+                <div class="user-input-box">
+                    <label for="password">Password</label>
+                    <input type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Password"/>
+                </div>     
+
+                <!-- confirm password //-->
+                <div class="user-input-box">
+                    <label for="confirmPassword"> Confirm Password</label>
+                    <input type="password"
+                            id="confirmPassword"
+                            name="confirmPassword"
+                            placeholder=" Confirm Password"/>
+                </div>     
+
+                <!-- NIK //-->
+                <div class="user-input-box">
+                    <label for="nik">NIK</label>
+                    <input type="text"
+                            id="nik"
+                            name="nik"
+                            placeholder="NIK"/>
+                </div>
+                
+                <!-- nama lengkap //-->
+                <div class="user-input-box">
+                    <label for="namaLengkap">Nama Lengkap</label>
+                    <input type="text"
+                            id="namaLengkap"
+                            name="namaLengkap"
+                            placeholder="Nama Lengkap"/>
+                </div>
+                
+                <!-- tempat lahir //-->
+                <div class="user-input-box">
+                    <label for="tempatLahir">Tempat Lahir</label>
+                    <input type="text"
+                            id="tempatLahir"
+                            name="tempatLahir"
+                            placeholder="Tempat Lahir"/>
+                </div>     
+
+                <!-- tanggal lahir //-->
+                <div class="user-input-box">
+                    <label for="tanggalLahir">Tanggal Lahir</label>
+                    <input type="date"
+                            id="tanggalLahir"
+                            name="tanggalLahir"
+                            placeholder="Password"/>
+                </div>     
+
+                <!-- jenis kelamin //-->
+                <div class="gender-details-box">
+                    <span class="gender-tittle">Jenis Kelamin</span>
+                    <div class="gender-category">
+                        <input type="radio" name="jenisKelamin" id="LK">
+                        <label for="LK">Laki-laki</label>
+                        <input type="radio" name="jenisKelamin" id="PR">
+                        <label for="PR">Perempuan</label>
+                    </div>
+                
+                </div>     
+
+                <!-- alamat //-->
+                <div class="user-input-box">
+                    <label for="alamat">Alamat</label>
+                    <input type="text"
+                            id="alamat"
+                            name="alamat"
+                            placeholder="Alamat"/>
+                </div>     
+
+                <!-- pendidikan terakhir //-->
+                <div class="user-input-box">
+                    <label for="pendidikanTerakhir">Pendidikan Terakhir</label>
+                    <input type="text"
+                            id="pendidikanTerakhir"
+                            name="pendidikanTerakhir"
+                            placeholder="Pendidikan Terakhir"/>
+                </div>  
+
+                <!-- file//-->
+
+                <!-- pas foto//-->
+                <div class="user-file-input">
+                    <label for="pasFoto">Pas Foto</label><br>
+                    <input type="file" id="pasFoto" name="pasFoto">
+                </div>
+
+                <!-- ktp//-->
+                <div class="user-file-input">
+                    <label for="ktp">KTP</label><br>
+                    <input type="file" id="ktp" name="ktp">
+                </div>
+
+                <!-- cv//-->
+                <div class="user-file-input">
+                    <label for="cv">CV</label><br>
+                    <input type="file" id="cv" name="cv">
+                </div>
+            </div>
+            
+            <div class="form-submit-btn"><br>
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
