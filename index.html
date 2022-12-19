@@ -13,6 +13,8 @@
         <h1 class="form-title">Seleksi Pegawai Baru Kementrian Kelautan dan Perikanan</h1>
         <form action="#">
             
+                   <form action="#">
+            
             <!-- username //-->
             <div class="main-user-info">
                 <div class="user-input-box">
@@ -119,26 +121,49 @@
                 <!-- file//-->
 
                 <!-- pas foto//-->
-                <div class="user-file-input">
-                    <label for="pasFoto">Pas Foto</label><br>
-                    <input type="file" id="pasFoto" name="pasFoto">
+
+                <div class="file-input">
+
+                    <div class="mb-3">
+                        <label for="pasFoto" class="form-label">Pas Foto</label>
+                        <input class="form-control" type="file" id="pasFoto" name="pasFoto">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="ktp" class="form-label">KTP</label>
+                        <input class="form-control" type="file" id="ktp" name="ktp" >
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="cv" class="form-label">CV</label>
+                        <input class="form-control" type="file" id="cv" name="cv" >
+                    </div>
+
+                    <!-- <div class="user-file-input">
+                        <label for="pasFoto">Pas Foto</label>
+                        <input type="file" id="pasFoto" name="pasFoto">
+                    </div> -->
+
+                    <!-- ktp//-->
+                    <!-- <div class="user-file-input">
+                        <label for="ktp">KTP</label>
+                        <input type="file" id="ktp" name="ktp">
+                    </div>
+
+                  
+                    <div class="user-file-input">
+                        <label for="cv">CV</label>
+                        <input type="file" id="cv" name="cv">
+                    </div> -->
                 </div>
 
-                <!-- ktp//-->
-                <div class="user-file-input">
-                    <label for="ktp">KTP</label><br>
-                    <input type="file" id="ktp" name="ktp">
-                </div>
 
-                <!-- cv//-->
-                <div class="user-file-input">
-                    <label for="cv">CV</label><br>
-                    <input type="file" id="cv" name="cv">
-                </div>
             </div>
-            
-            <div class="form-submit-btn"><br>
-                <input type="submit" value="Submit">
+
+            <div class="form-submit-btn">
+                <!-- <input type="submit" value="Submit"> -->
+                <button type="button" class="btn btn-primary">SUBMIT</button>
+
             </div>
 
         </form>
