@@ -1,20 +1,20 @@
 *{
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
 }
 
 img{
     position: relative;
-    height: 100px;
-    align-content: center;
-    left: 43%;
+    align-items: center;
 }
 
 body{
     display: flex;
-    height: fit-content;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background: url(images/nusa\ penida.jpg);
@@ -22,14 +22,15 @@ body{
 }
 
 .container{
-    padding-top: 100px;
+    
     width: 100%;
     max-width: 650px;
     background: rgba(0, 0, 0, 0.5);
-    padding: 28px;
-    margin: 0 28px;
+    padding: 100px;
+    margin-top: 1000px;
+    /* padding-right: 5000px; */
+    /* margin: 0 28px; */
     border-radius: 10px;
-    margin: 30px;
 }
 
 .form-title{
@@ -40,13 +41,17 @@ body{
     color: white;
     text-shadow:  2px 2px 2px black;
     border-bottom: solid 1px white;
-
 }
 
 .main-user-info{
+    display: flex;
     flex-wrap: wrap;
-    justify-content: ;
+    justify-content: space-between;
     padding: 20px 0;
+}
+
+.user-input-box:nth-child(1n){
+    justify-content: end;
 }
 
 .user-input-box{
@@ -54,6 +59,7 @@ body{
     flex-wrap: wrap;
     width: 100%;
     padding-bottom: 15px;
+    margin-right: 53px;
 }
 
 .user-input-box label{
@@ -62,65 +68,30 @@ body{
     font-size: 20px;
     font-weight: 400;
     margin: 5px 0;
-    margin-left: 5px;
 }
 
 .user-input-box input{
     height: 40px;
     width: 95%;
-    border-radius: 25px;
+    border-radius: 7px;
     outline: none;
     border: 1px solid grey;
     padding: 0 10px;
 }
 
-.gender-details-box{
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 7px;
-}
-
-.gender-title{
-    color: white;
-    font-size: 600;
-    border-bottom: 1px solid white;
-}
-
-.gender-category{
-    margin: 15px 0;
+.gender-details-box {
+    padding-left: 55px;
     color: white;
 }
 
-.gender-category label,
-.gender-category input,
-.form-submit-btn input{
-    cursor: pointer;
-}
-
-.user-file-input{
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 17px;
-}
-.form-submit-btn{
-    margin-top: 40px;
-    
-}
-
-.form-submit-btn input{
+.file-input{
+    /* justify-content: space-between; */
     display: block;
-    width: 95%;
-    margin-top: 10px;
-    font-size: 20px;
-    padding: 0px;
+    padding-left: 51px;
     color: white;
-    background: #2691d9;
-    border-radius: 25px;
-    height: 50px;
 }
 
-.form-submit-btn :hover{
-    text-decoration: underline;
+.form-submit-btn{
+    margin-left: 50px;
 }
+
